@@ -17,7 +17,8 @@ This pre-trained model is taken from [TensorFlow Hub](https://www.tensorflow.org
 - Without using [TensorFlow 2 Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md).
 - :bulb: Features : Apply object detection on downloaded image or captured image from webcam
 - ✅ Accuracy : Mean Average Precision of **0.58** on OpenImagesV4 test set (OpenImages Challenge metric)
-- Results👇🏻
+
+Results👇🏻
 <img src = "https://raw.githubusercontent.com/NyanSwanAung/The-Sparks-Foundation-Intership/main/assets/webcam_img.png"/>
 
 ## Object Detection on (Live webcam + Video)
@@ -29,6 +30,7 @@ This pre-trained model is taken from [TensorFlow Hub](https://www.tensorflow.org
 - ✅ Accuracy : Mean Average Precision of **29.3** on COCO 2017 test set
 
 Results on saved video 👇🏻
+
 <img src = "https://raw.githubusercontent.com/NyanSwanAung/The-Sparks-Foundation-Intership/main/assets/webcam_vid.gif"/> 
 
 
