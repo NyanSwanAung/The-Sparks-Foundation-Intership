@@ -17,6 +17,8 @@ This pre-trained model is taken from [TensorFlow Hub](https://www.tensorflow.org
 - Without using [TensorFlow 2 Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md).
 - :bulb: Features : Apply object detection on downloaded image or captured image from webcam
 - ✅ Accuracy : Mean Average Precision of **0.58** on OpenImagesV4 test set (OpenImages Challenge metric)
+- Results👇🏻
+<img src = "https://raw.githubusercontent.com/NyanSwanAung/The-Sparks-Foundation-Intership/main/assets/webcam_img.png"/>
 
 ## Object Detection on (Live webcam + Video)
 <a href="https://colab.research.google.com/drive/1Z-cy_X6MzAmshEJ6xU9ktaGIgEx_X3c6?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -25,7 +27,14 @@ This pre-trained model is taken from [TensorFlow Hub](https://www.tensorflow.org
 - Using [TensorFlow 2 Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md)
 - :bulb: Features : Apply object detection on saved videos or live webcam(both in google colab and anaconda environment)
 - ✅ Accuracy : Mean Average Precision of **29.3** on COCO 2017 test set
-- Detection Results  
+
+Results on saved video 👇🏻
+<img src = "https://raw.githubusercontent.com/NyanSwanAung/The-Sparks-Foundation-Intership/main/assets/webcam_vid.gif"/> 
+
+
+Results on live webcam 👇🏻
+<img src = "https://raw.githubusercontent.com/NyanSwanAung/The-Sparks-Foundation-Intership/main/assets/webcam_live.gif"/> 
+
 
 
 ##  Framework and Libraries used 
