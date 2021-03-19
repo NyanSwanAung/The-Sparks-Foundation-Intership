@@ -1,9 +1,14 @@
 ## Task 1 - Object Detection
 :dart: Implementing an object detector which identifies the classes of the objects.
 
-<a href="https://colab.research.google.com/drive/1OfTtWs5Xty364JAX0lkp918QH32U9OIr?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
 <img src="https://raw.githubusercontent.com/NyanSwanAung/The-Sparks-Foundation-Intership/main/assets/Task1.png"/>
+
+In this repo, you'll find codes for 
+- Object detection on Image 
+- Object detection on Videos (Live webcam in google colab and anaconda environment)
+
+## Object Detection on Image
+
 
 ## :rocket: Model Architecture 
 Using pre-trained Faster-RCNN and InceptionResNetV2 feature extractor(acting as backbone) to identify objects in images and webcam. InceptionResNetV3 was trained on [ImageNet](http://image-net.org/) and fine-tuned with FasterRCNN on [OpenImages V4 dataset](https://storage.googleapis.com/openimages/web/index.html), containing 600 classes.
