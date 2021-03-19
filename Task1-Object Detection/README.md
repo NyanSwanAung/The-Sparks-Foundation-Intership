@@ -21,7 +21,7 @@ This pre-trained model is taken from [TensorFlow Hub](https://www.tensorflow.org
 ## Object Detection on (Live webcam + Video)
 <a href="https://colab.research.google.com/drive/1Z-cy_X6MzAmshEJ6xU9ktaGIgEx_X3c6?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-- :rocket: Model Architecture : Using pre-trained Faster-RCNN to identify objects on images and webcam. The ResNet50v1 feature extractor(acting as backbone) was trained on [ImageNet](http://image-net.org/) and fine-tuned with FasterRCNN on [COCO2017](https://cocodataset.org/#home), containing 172 classes. This pre-trained model is taken from [TensorFlow Hub] (https://www.tensorflow.org/hub).
+- :rocket: Model Architecture : Using pre-trained Faster-RCNN to identify objects on images and webcam. The ResNet50v1 feature extractor(acting as backbone) was trained on [ImageNet](http://image-net.org/) and fine-tuned with FasterRCNN on [COCO2017](https://cocodataset.org/#home), containing 172 classes. This pre-trained model is taken from [TensorFlow Hub](https://www.tensorflow.org/hub).
 - Using [TensorFlow 2 Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md)
 - :bulb: Features : Apply object detection on saved videos or live webcam(both in google colab and anaconda environment)
 - ✅ Accuracy : Mean Average Precision of **29.3** on COCO 2017 test set
