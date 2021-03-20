@@ -12,7 +12,7 @@ In this repo, you'll find codes for
 ## Object Detection on (Webcam + Image)
 <a href="https://colab.research.google.com/drive/1OfTtWs5Xty364JAX0lkp918QH32U9OIr?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-- :rocket: Model Architecture : Using pre-trained Faster-RCNN and InceptionResNetV2 feature extractor(acting as backbone) to identify objects in images and webcam. InceptionResNetV3 was trained on [ImageNet](http://image-net.org/) (images scaled to 640x640 resolution) and fine-tuned with FasterRCNN on [OpenImages V4 dataset](https://storage.googleapis.com/openimages/web/index.html), containing 600 classes.
+- :rocket: Model Architecture : Using pre-trained Faster-RCNN and InceptionResNetV2 feature extractor(acting as backbone) to identify objects in images and webcam. InceptionResNetV2 was trained on [ImageNet](http://image-net.org/) (images scaled to 640x640 resolution) and fine-tuned with FasterRCNN on [OpenImages V4 dataset](https://storage.googleapis.com/openimages/web/index.html), containing 600 classes.
 This pre-trained model is taken from [TensorFlow Hub](https://www.tensorflow.org/hub).
 - Without using [TensorFlow 2 Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md).
 - :bulb: Features : Apply object detection on downloaded image or captured image from webcam
